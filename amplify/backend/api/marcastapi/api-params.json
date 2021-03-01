@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/geturl",
+            "lambdaFunction": "marcastfunction",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/geturl"
+        }
+    ],
+    "resourceName": "marcastapi",
+    "apiName": "marcastapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "marcastfunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-marcastapp-dev-80522-authRole",
+        "unAuthRoleName": "amplify-marcastapp-dev-80522-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "marcastfunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

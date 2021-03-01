@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/getembedurl",
+            "lambdaFunction": "marcastfunction",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/getembedurl"
+        }
+    ],
+    "resourceName": "marcastapiv2",
+    "apiName": "marcastapiv2",
+    "functionArns": [
+        {
+            "lambdaFunction": "marcastfunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-marcastapp-dev-80522-authRole",
+        "unAuthRoleName": "amplify-marcastapp-dev-80522-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "marcastfunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

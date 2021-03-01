@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-marcastapp-dev-80522-authRole",
+      "UnauthRoleArn": "arn:aws:iam::962789531484:role/amplify-marcastapp-dev-80522-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::962789531484:role/amplify-marcastapp-dev-80522-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-marcastapp-dev-80522-deployment",
+      "UnauthRoleName": "amplify-marcastapp-dev-80522-unauthRole",
+      "StackName": "amplify-marcastapp-dev-80522",
+      "StackId": "arn:aws:cloudformation:us-east-2:962789531484:stack/amplify-marcastapp-dev-80522/c8c68450-7a8e-11eb-9520-06f2546a4124",
+      "AmplifyAppId": "dvcboukw7sai4"
+    },
+    "categories": {
+      "auth": {
+        "marcastapp035577a5": {}
+      },
+      "function": {
+        "marcastfunction": {
+          "deploymentBucketName": "amplify-marcastapp-dev-80522-deployment",
+          "s3Key": "amplify-builds/marcastfunction-654a6c6a4d4542474a65-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dvcboukw7sai4",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
